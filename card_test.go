@@ -6,7 +6,9 @@ import (
 )
 
 func ExampleMaskCard() {
-	fmt.Println(MaskCard("4111 1111 1111 1111"))
+	a := "1231231231231234"
+
+	fmt.Println(MaskCard(a))
 
 }
 
